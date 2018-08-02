@@ -1,0 +1,49 @@
+.carousel-caption{ top: 35%}
+.carousel-caption h2{color: yellow}
+.carousel-caption p{color: greenyellow;font-size: 18px; font-weight: bold;}
+.main-point .card{text-align: center;}
+.main-point .card i{color: sandybrown; font-size: 30px}
+.main-point .card{border: 0px;}
+
+.underline{width: 150px; margin: 0 auto; height: 5px; background-color: sandybrown;}
+.underline-left{width: 150px; height: 5px; background-color: sandybrown;}
+.underline-white{width: 150px; margin: 0 auto; height: 5px; background-color: white;}
+
+.btn-custom{background-color: sandybrown; color: aliceblue;}
+.about-text{ line-height:30px}
+
+.offer{background-color: rgba(248,255,0,1.00)}
+.offer .card{text-align: center;}
+.media i{ padding: 20px; background-color: #363636; color: #efb925; border: 4px solid #efb925; font-size: 22px}
+
+
+
+@media(max-width:768px){
+	main-point{ margin-top: -100px;}
+}
+.achivement {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-bottom: 80px;
+	padding-top: 80px;
+	background-image:url(../img/pexels-photo-259984.jpg);
+    background-attachment: fixed;
+	background-size: cover;
+	color: aliceblue;
+}
+
+.achivement .card{
+	margin-top: 20px;
+	color: sandybrown;
+	text-align: center;
+	background-color: transparent;
+	font-weight: 600;
+
+}
+.achivement .card i{font-size: 40px;}
+
+.team{text-align: center;}
+.team .card{border :none;}
+.team .card i{color: chocolate; font-size: 22px;}
+.team .card i:hover{color: coral;; font-size: 25px; transition:1s;}
+
